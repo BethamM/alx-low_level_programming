@@ -1,5 +1,6 @@
 #ifndef MAIN.H
 #define MAIN_H
+#include <stdio.h>
 
 /**
  * file: main.h
