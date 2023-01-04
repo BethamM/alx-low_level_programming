@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _memcpy - fills mamory with another buffer.
+ * _memcpy - fills memory with another buffer.
  * @dest: source string
- * @src: string for fillin
+ * @src: string for filling
  * @n: length of buffer
  * Return: new string
  */
@@ -13,7 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (i < n)
 	{
-		*(dest + 1) = *(src + i);
+		*(dest + i) = *(src + i);
 		i++;
 	}
 	return (dest);
