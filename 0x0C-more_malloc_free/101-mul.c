@@ -1,4 +1,4 @@
-#include "main,h"
+#include "main.h"
 
 /**
  * main - multiplies two possible numbers
@@ -6,7 +6,7 @@
  * @argv: args
  * Return: int
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((unused))argc, char *argv[])
 {
 	unsigned long mul;
 	int i, j;
