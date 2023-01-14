@@ -6,7 +6,7 @@
  * @argv: args
  * Return: int
  */
-int main(int __attribute__((unused))argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	unsigned long mul;
 	int i, j;
